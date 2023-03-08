@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <script src="https://kit.fontawesome.com/ebf0aade9d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,8 @@
             <div >
                 <h1></h1>
                 <ul class="menu">
-                    <li><a class="active" href="#perfil">PERFIL</a></li>
+                    <li><a class="active" href="#datos">DATOS PERSONALES</a></li>
+                    <li><a href="#perfil">PERFIL</a></li>
                     <li><a href="#experiencia">EXPERIENCIA</a></li>
                     <li><a href="#formacion">FORMACIÓN</a></li>
                     <li><a href="#habilidades">HABILIDADES Y APTITUDES</a></li>
@@ -25,10 +27,18 @@
             <img class="foto"src="imagenes/fotoCV.jpg" alt="Foto Perfil" width="180" height="200">
             <h1>PATRICIA SALAS MONTERO</h1>
             <h2>Administrativa</h2>
+            <button id="button">DATOS DE CONTACTO</button>
+            <ul class="lista_datos">
+                <li>Direccion : Salzillo,39 32600 Verin</li>
+                <li>Email: patricia.salas.montero@gmail.com</li>
+                <li>Móvil: 6230247450</li>
+                <li>Linkedin: linkedin.com/in/patricia-salas-montero</li>
+            </ul>
         </section>
       
-        <Section id="perfil">
+        <section id="perfil">
             <div class="info">
+                <i class="fa-solid fa-circle-user"></i>
                 <h3>Perfil Profesional</h3>
             </div>
             <div>
@@ -36,9 +46,10 @@
                 Tecnica en administracion y finanzas con más de 5 años de experiencia como administrativa para diferentes sectores y afrontando diferentes responsabilidades. Desde la gestion de envíos y la atencion al cliente, hasta la gestión de la contabilidad interna de la empresa. Buscando seguir mejorando la productividad y eficiencia de la empresa, tal y como hice en mis experiencias anteriores.
                 </p>
             </div>
-        </Section>
+        </section>
         <section id="experiencia">
             <div class="info">
+                <i class="fa-solid fa-folder-open"></i>
                 <h3>Experiencia Laboral</h3>
             </div>
             <div>
@@ -63,8 +74,9 @@
             </ul>
             </div>
         </section>
-        <section>
+        <section id="formacion">
             <div class="info">
+                <i class="fa-solid fa-user-graduate"></i>
                 <h3>Formación Academica</h3>
             </div>
             <div>
@@ -78,8 +90,9 @@
                 <p>Septiembre de 2012 - Junio de 2014</p>
             </div>
         </section>
-        <section>
+        <section id="habilidades">
             <div class="info">
+                <i class="fa-solid fa-list-check"></i>
                 <h3>Habilidades y Aptitudes</h3>
             </div>
             <div>
@@ -95,6 +108,7 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>   
 </body>
 </html>
 <!--Faltan puntos por terminar-->
